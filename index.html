@@ -2,169 +2,352 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Website</title>
-    <link rel="stylesheet" href="Expert-Advice_page/styles.css">
+    <title>Website Project</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
 </head>
 <body>
-  <script src="Expert-Advice_page/script.js"></script>
-  <header>
-      <nav>
-            <ul class="menu">
-                <li><a href="#">Recipes & Menus</a></li>
-                <li><a href="#">Desserts</a></li>
-                <li><a href="#">Holidays & Events</a></li>
-                <li><a class="logo" href="#"><img src="Expert-Advice_page/images/logo.png" alt="Logo" height="50px"></a></li>
-                <li><a href="#">Ingredients</a></li>
-                <li><a href="index.html">Expert Advice</a></li>
-                <li><a href="index2.html">The Team</a></li>
+    <section id="Home">
+        <nav>
+            
+            <ul>
+                <li><a href='#Home'>Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Recipes">Recipes and Menu</a></li>
+                <li><a href='#Holidays'>Holidays and Events</a></li>
             </ul>
-      </nav>
-  </header>
-  <section class="expert-advice">
-    <h2>Expert Advice</h2>
-    <div class="advice-container">
-      <div class="advice-card">
-        <img src="Expert-Advice_page/images/tip1.jpg" alt="Advice 1">
-        <h3>Tip #1</h3>
-        <p>This article provides helpful tips and advice for individuals who are new to cooking, including basic techniques, essential tools and equipment</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="advice-card">
-        <img src="Expert-Advice_page/images/tip2.jpg" alt="Advice 2">
-        <h3>Tip #2</h3>
-        <p>Nullam et ante luctus, convallis urna at, dignissim ex. Vivamus euismod nunc ut diam maximus scelerisque. Quisque quis feugiat enim.</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="advice-card">
-        <img src="Expert-Advice_page/images/tip3.jpg" alt="Advice 3">
-        <h3>Tip #3</h3>
-        <p>Aliquam tristique odio eget libero imperdiet laoreet. Suspendisse convallis lacus id nibh luctus, vel hendrerit eros convallis.</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="advice-card">
-        <img src="Expert-Advice_page/images/tip4.jpg" alt="Advice 4">
-        <h3>Tip #4</h3>
-        <p>Aliquam tristique odio eget libero imperdiet laoreet. Suspendisse convallis lacus id nibh luctus, vel hendrerit eros convallis.</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="advice-card">
-        <img src="Expert-Advice_page/images/tip5.jpg" alt="Advice 5">
-        <h3>Tip #5</h3>
-        <p>Aliquam tristique odio eget libero imperdiet laoreet. Suspendisse convallis lacus id nibh luctus, vel hendrerit eros convallis.</p>
-        <a href="#">Read More</a>
-      </div>
-      <div class="advice-card">
-        <img src="Expert-Advice_page/images/tip6.jpg" alt="Advice 6">
-        <h3>Tip #6</h3>
-        <p>Aliquam tristique odio eget libero imperdiet laoreet. Suspendisse convallis lacus id nibh luctus, vel hendrerit eros convallis.</p>
-        <a href="#">Read More</a>
-      </div>
-    </div>
-    <div class="view-all-container">
-      <a href="#">View All</a>
-    </div>
-    </div>
-  </section>
-  <div class="divider"></div>
-  <section class="new-rec">
-    <h2>Our Newest Recipes</h2>
-    <div class="recipes-container">
-      <div class="recipe">
-        <img src="Expert-Advice_page/images/recipe 1.jpg" alt="Recipe 1">
-        <p>Beef Burger <br>Restaurant Style<br>By Kim Min Ji</p>
-      </div>
-      <div class="recipe">
-        <img src="Expert-Advice_page/images/recipe2.jpg" alt="Recipe 2">
-        <p>Mix Pulses Curry<br>Pakistani Edition<br>By Zubaida Apa</p>
-      </div>
-      <div class="recipe">
-        <img src="Expert-Advice_page/images/recipe3.jpg" alt="Recipe 3">
-        <p>Meatballs Soup<br>Italian Special<br>By Fagh Li</p>
-      </div>
-      <div class="recipe">
-        <img src="Expert-Advice_page/images/recipe4.jpg" alt="Recipe 3">
-        <p>Potato and Meat Curry<br>Pakistani Favorite<br>By Zarii Ali</p>
-      </div>
-    </div>    
-  </section>
-  <div class="signup-container">
-    <h1>Get the latest news and recipes!</h1>
-    <form>
-      <input type="email" placeholder="Enter your email address">
-      <button type="submit">Sign up</button>
-    </form>
-  </div>  
-  <section>
-    <section class="carosol">
-      <div class="carousel-container">
-        <div class="carousel-slide active">
-          <img src="Expert-Advice_page/images/recipe 1.jpg" alt="Recipe 1">
-          <div class="carousel-text">
-            <h2>Recipe 1</h2>
-            <p>Here's a brief description of Recipe 1.</p>
-          </div>
+
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+
+            <ul>
+                <li><a href='#Ingredients'>Ingredients</a></li>
+                <li><a href='#Expert'>Expert Advice</a></li>
+                <li><a href='#Team'>The Team</a></li>
+            </ul>
+            
+            <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i> 
+            </div>
+        </nav>
+
+        <div class="main">
+            <div class="main_text">
+                <h1>Get Easy <span>Recipes</span><br>the Easy Way</br></h1>
         </div>
-        <div class="carousel-slide">
-          <img src="Expert-Advice_page/images/recipe2.jpg" alt="Recipe 2">
-          <div class="carousel-text">
-            <h2>Recipe 2</h2>
-            <p>Here's a brief description of Recipe 2.</p>
-          </div>
+            <div class="main_image">
+                <img src="images/carrot-pilaf-6cf6eba.jpeg">
         </div>
-        <div class="carousel-slide">
-          <img src="Expert-Advice_page/images/recipe3.jpg" alt="Recipe 3">
-          <div class="carousel-text">
-            <h2>Recipe 3</h2>
-            <p>Here's a brief description of Recipe 3.</p>
-          </div>
         </div>
-        <div class="carousel-slide">
-          <img src="Expert-Advice_page/images/recipe4.jpg" alt="Recipe 4">
-          <div class="carousel-text">
-            <h2>Recipe 4</h2>
-            <p>Here's a brief description of Recipe 3.</p>
-          </div>
+
+        
+        <div>
+        <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil fuga officia repudiandae quaerat necessitatibus totam tempore asperiores praesentium perferendis, 
+            quo ad neque amet odio impedit? Sequi magni ratione hic aperiam.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Ducimus nesciunt quasi facere quam illo natus explicabo quo odio impedit. 
+            Sunt veritatis, repellat laudantium officia ex minima rem accusamus iste amet.
+             </p>
+             
         </div>
-        <div class="carousel-nav">
-          <button class="carousel-prev"><i class="fas fa-chevron-left"></i></button>
-          <button class="carousel-next"><i class="fas fa-chevron-right"></i></button>
+
+        </section>
+
+        
+        <!--search button-->
+
+             <div class="wrapper">
+                <div class="container">
+                  <input type="text" class="input" placeholder="Search Recipe...">
+                  <input type="button" value="search" class="close-btn">
+                </div>
+              </div>
+  
+        <div class="containers">
+               <p class="solid"></p> 
         </div>
-      </div>      
-    </section>
-  </section>
-  <footer>
-    <div class="footer-left">
-      <img src="Expert-Advice_page/images/logo.png" alt="Logo">
-      <div class="social-media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
+
+    <!--About-->
+
+<div class="about" id="About">
+    <div class="about_main">
+        <div class="image">
+            <img src="images/enchillada.jpeg">
+        </div>
+        <div class="about_text">
+            <h1><span>About </span> Us</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Consectetur perspiciatis id labore. Deleniti, error odit minus labore, incidunt, 
+                cupiditate aliquid modi sequi suscipit doloribus voluptate autem nam magnam necessitatibus nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, repellendus ut. Perferendis animi alias ea error sed incidunt, deserunt architecto cumque magni rem, 
+                distinctio eius necessitatibus deleniti assumenda tempora vel?</p>
+                
+                <div class="wrapper">
+                    <div class="container">
+                      <input type="button" value="Read more" class="close-btn">
+                    </div>
+                  </div>
+        </div>
     </div>
-    <div class="footer-right">
-      <div class="footer-links">
-        <h3>Site Map</h3>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="footer-links">
-        <h3>Useful Links</h3>
-        <ul>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">FAQs</a></li>
-        </ul>
-      </div>
-      <div class="copyright">
-        <p>&copy; 2023 Recipe Blog. All Rights Reserved.</p>
-      </div>
+</div>
+
+<p></p>
+<hr class="solid">
+
+
+<!--Menu cards-->
+
+<div class="recipes" id="Recipes">
+    
+    <h1><span>Recipes </span> &<span> Menus</span></h1> 
+
+    <div class="menu_box">
+        <div class="menu_card">
+
+            <div class="menu_image">
+                <img src="images/Roast-lamb-leg_1.webp">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+
+            <div class="menu_info">
+                <h2>Dinner Recipes</h2>
+                <p>
+                    Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur consectetur eius repellendus <br>
+                      Asperiores laborum porro at?<br> sit amet consectetur 
+                </p>
+                <h3><a href="#" class="menuh3_btn">See More</a></h3>
+              
+            </div>
+
+
+        </div>
+
+
+        <!--HEALTHY-->
+
+        <div class="menu_card">
+
+            <div class="menu_image">
+                <img src="images/3-Step-Chicken-Salad.jpeg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+
+            <div class="menu_info">
+                <h2>Healthy Recipes</h2>
+                <p>
+                    Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                    Asperiores laborum porro at?<br> sit amet consectetur 
+                </p>
+                <h3><a href="#" class="menuh3_btn">See More</a></h3>
+        
+            </div>
+
+
+        </div>
+
+        <!--DESSERTS-->
+
+        <div class="menu_card">
+
+            <div class="menu_image">
+                <img src="images/lemon-panna-cotta-with-vodka-blueberry-syrup-92005-1.jpeg">
+            </div>
+
+            <div class="small_card">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+
+
+            <div class="menu_info">
+                <h2>Dessert Recipes</h2>
+                <p>
+                    Lorem ipsum dolor Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                      Asperiores laborum porro at?<br> sit amet consectetur 
+                </p>
+                <h3><a href="#" class="menuh3_btn">See More</a></h3>
+             
+            </div>
+
+        </div>
+
     </div>
-  </footer>   
+</div>
+
+
+<p></p>
+<hr class="solid">
+
+
+<!--Holidays and Events-->
+<section>
+<div class="holidays" id="Holidays">
+    <div class="holidays_main">
+        <h1><span>Holidays </span> &<span> Events</span></h1> 
+        <div class="holidays_image">
+            <img src="images/ttgd.webp">
+        </div>
+        <div class="holidays_text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+                Consectetur perspiciatis id labore. Deleniti, error odit minus labore <br>
+                cupiditate aliquid modi sequi suscipit doloribus <br> voluptate autem necessitatibus nemo? <br>
+                distinctio eius necessitatibus deleniti assumenda tempora vel?</p>
+               
+                <div class="wrappers">
+                    <div class="containers">
+                      <input type="button" value="See more" class="close-btns">
+                    </div>
+            
+        </div>
+    </div>
+</div>
+
+</section>
+
+<p></p>
+<hr class="solid">
+
+
+<!--Ingredients section-->
+    <section>
+        <div class="ingredients" id="Ingredients">
+            <div class="ingredients_main">
+                <div class="ingredients_image">
+                    <img src="images/GettyImages-695984364.jpeg">
+                </div>
+                <div class="ingredients_text">
+                    <h1>Ingredients</h1> 
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Consectetur perspiciatis id labore. Deleniti, error odit minus labore, incidunt, 
+                        <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Voluptates totam veniam dignissimos hic eum excepturi accusantium nihil ratione! <br>
+                        
+                       
+                        
+                        <div class="wrappers">
+                            <div class="containers">
+                              <input type="button" value="Read more" class="close-btns">
+                            </div>
+                       
+                </div>
+            </div>
+        </div>
+        
+
+        </section>
+
+        <p></p>
+        <hr class="solid">
+
+    
+
+          <!--Expert advice section-->
+          <section>
+            <div class="expert" id="Expert">
+                <div class="expert_main">
+                    <div class="expert_image">
+                        <img src="">
+                    </div>
+                    <div class="expert_text">
+                        <h1><span>Expert Advice</span></h1> 
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Consectetur perspiciatis id labore. Deleniti, error odit minus labore, incidunt, 
+                            <br>
+                            cupiditate aliquid modi sequi suscipit doloribus voluptate autem nam magnam necessitatibus nemo? 
+                            distinctio eius necessitatibus deleniti assumenda tempora vel?</p>
+
+                            <div class="wrappers">
+                                <div class="containers">
+                                  <input type="button" value="Read more" class="close-btns">
+                                </div>
+                            
+                    </div>
+                </div>
+            </div>
+            
+            </section>
+
+            <p></p>
+            <hr class="solid">
+
+
+              <!--The team section-->
+              <section>
+                <div class="team" id="Team">
+                    <div class="team_main">
+                        <div class="team_image">
+                            <img src="">
+                        </div>
+                        <div class="team_text">
+                            <h1><span>The Team</span></h1> 
+                            <div class="flex-container">
+                                <div>Claudia Kesena</div>
+                                <div>Bisma Hashmi</div>
+                                <div>Barbara Anane</div>
+                                <div>Denise Hombiro</div>
+                              </div>
+                            
+                              <div class="wrapper">
+                                <div class="container">
+                                  <input type="button" value="See more" class="close-btn">
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+                
+                </section>
+
+
+                <p></p>
+                <hr class="solid">
+
+
+    <script src="https://kit.fontawesome.com/a8e1f94542.js" crossorigin="anonymous"></script>
 </body>
+<footer>
+    <div class="footer">
+        <div class="col1-sm-4">
+            <h4>LINKS</h4>
+            <a href="">About</a>
+            <a href="">Team</a>
+            <a href="">Recipes</a>
+            <a href="">Tips</a>
+            <a href="">Ingredients</a>
+        </div>
+        <div class="col2-sm-4">
+            <h4>NEWS</h4>
+            <form>
+                <input type="email" placeholder="Your Email Address" required>
+                <br>
+                <button type="submit">SIGN UP</button>
+            </form>
+        </div>
+        <div class="col3-sm-4">
+            <h4>CONTACT</h4>
+            <p>123, ABC Road, XYZ 3<br>Timbuktu, Galaxy, UN</p>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i> 
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
 </html>
