@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #FAC031;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header {
+    background-color: rgba(255, 193, 178, 0.6);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  display: block;
+  margin: auto;
+}
+.menu li a {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Lobster Two', cursive;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+.menu li a:hover {
+  background-color: #00D2EE;
+  color: #FFFFFF;
+}
+.dessert-page {
+  display: flex;
+}
+#dessert-title {
+  align-items: center;
+  font-family: 'Lobster Two', cursive;
+}
+  h2 {
+    font-family: 'Lobster Two', cursive;
+  }
+  p{
+    font-family: 'Open Sans', sans-serif;
+  }
+  .sliding-container {
+    position: relative;
+    height:fit-content;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 700px 700px 700px;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    justify-content: space-evenly;
+  }
+  .dessert-card{
+    width: 400px;
+    height:400px;
+    background-color: #FFC1B2;
+    position:relative;
+  }
+  .dessert-images {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left:100px;
+    top:50px ;
+    border-color: #FAC031;
+    border-style:solid ;
+  }
+  .card-text{
+    background-color: white;
+    width:300px;
+    position:absolute;
+    left:50px;
+    bottom:-100px;
+    border-color: #00D2EE;
+  }
+  .dessert-buttons {
+    color: #FFFFFF;
+    background-color: #FAC031;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    position:absolute;
+    left:80px;
+  }
+  .dessert-buttons:hover{
+    color:#FFFFFF;
+    background-color: #00D2EE;
+    cursor: pointer;
+  }

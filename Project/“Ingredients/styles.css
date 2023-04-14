@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+    
+header {
+    background-color: #FAC031;
+    padding: 20px;
+}
+    
+h1{
+    text-align: center;
+    color:#00D2EE;
+}
+
+
+
+    
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+    
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+    
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+    
+nav ul li a:hover {
+    background-color: #00D2EE;
+}
+    
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+    
+h1 {
+    color: #FAC031;
+}
+    
+p {
+    color: #333;
+    line-height: 1.5;
+}
+    
+.flex-containers {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FAC031;
+    color:white;
+    padding:10px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    
+.flex-containers > div {
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+    
+.flex-containers > div:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+    
+        
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+    
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+    
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+    
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: none;
+    transition: box-shadow 0.3s ease-in-out;
+}
+    
+.flex-containers p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+    
+    
+.ONR{
+    text-align: center;
+}
+    
+div { box-sizing: border-box; }
+    
+    .circle-container {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    height: 500px;
+}
+    
+    
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    background-color: #F7E9E9;
+    margin: 0.5em;
+}
+    
+.circle:hover {
+    background-color: #FFC1B2;
+    border-style: dotted;
+}
+    
+.aligner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+    
+.aligner img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+    
+.aligner p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+    
+.email{
+    background-color: #00D2EE;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+    
+.Box{
+    border: 1px solid black;
+    text-align: center;
+}
+    
+.ROW{
+    text-decoration: dotted
+}
+    
+    
+    
+.Spring p{
+    text-decoration: bold;
+    text-align: center;
+}
+    
+footer {
+    background-color: #FFC1B2;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+    
+    
+.footer-nav1 p, .footer-nav2 p{
+    text-size-adjust: 15px;
+}
+    
+.footer-nav1, .footer-nav2 {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    margin-left: 20px;
+      float: right;
+}
+    
+    
+.footer-nav1 ul, .footer-nav2 ul {
+    list-style: none;
+}    
+    
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+}

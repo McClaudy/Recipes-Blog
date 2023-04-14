@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
 
 *{
@@ -6,8 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Gloock', serif; 
-   
-    
 }
 
 html{
@@ -26,7 +23,7 @@ section nav{
     position: fixed;
     right: 0;
     left: 0;
-    background: #ffc1b2;
+    background: #fac031;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     z-index: 1000;
 }
@@ -59,7 +56,7 @@ section nav ul li a::after{
     content: '';
     width: 0;
     height: 2px;
-    background: #fac031;
+    background: #fff;
     display: block;
     transition: 0.2s linear;
 }
@@ -82,7 +79,7 @@ section nav .icon i{
 }
 
 section nav .icon i:hover{
-    color: #fac031;
+    color: #fff;
 }
 
 /*Easy Recipe*/
@@ -172,7 +169,7 @@ section p{
     margin-left: 50px;
     cursor: pointer;
     color: #00d2ee;
-    background: #ffc1b2;
+    background: #fff;
     border: 0px;
     width: 120px;
     height: 55px;
@@ -283,8 +280,7 @@ section p{
     height: 100%;
     object-fit: cover;
     object-position: center;
-    transition: 0.3s;
-    
+    transition: 0.3s; 
   }
 
   .recipes .menu_box .menu_card .menu_image:hover img{
@@ -382,6 +378,12 @@ section p{
     text-align: center;
 }
 
+.footer p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .col2-sm-4{
     flex-grow: 2;
 }
@@ -460,7 +462,6 @@ form button{
     margin: 10px;
     cursor: pointer;
     color: #00d2ee;
-
 }
 
 .social i:hover{
@@ -552,7 +553,8 @@ section .holidays .holidays_text p{
     margin-right: 50px;
     cursor: pointer;
     color: #00d2ee;
-    background: #ffc1b2;
+    text-shadow: 0 0 1px #000;
+    background: #fff;
     border: 0px;
     width: 120px;
     height: 55px;
@@ -560,6 +562,7 @@ section .holidays .holidays_text p{
     outline: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 13px;
 }
 
 
@@ -577,7 +580,6 @@ section .ingredients{
     justify-content: space-around;
     position: relative;
     top: -300px;
-
 }
 
 section .ingredients .ingredients_text h1{
@@ -592,8 +594,7 @@ section .ingredients .ingredients_text h1{
 section .ingredients .ingredients_image img{
     width: 850px;
     position: relative;
-   align-items: center;
-   
+   align-items: center; 
 }
 
 section .ingredients p{
@@ -617,7 +618,6 @@ section .expert{
     position: relative;
     top: 150px;
     bottom: 80px;
-
 }
 
 section .expert .expert_text h1{
@@ -647,13 +647,11 @@ section .team{
     justify-content: space-around;
     position: relative;
     top: 10px;
-   
 }
 
 section .team .team_text h1{
     font-size: 95px;
     position: relative;
-    
     left: 20px;
     font-family: 'Gloock', serif;
     color: #fac031;
@@ -664,15 +662,16 @@ section .team .team_text h1{
 .flex-container {
     display: flex;
     background-color: #ffc1b2;
-   
   }
   
 .flex-container > div {
     background-color: #f1f1f1;
     margin: 50px;
     padding: 30px;
-    font-size: 15px;
+    color: #00d2ee;
+    font-size: 25px;
     border-radius: 30%;
+   margin-left: 170px;
   }
 
 section .team p{
@@ -691,7 +690,8 @@ section .team p{
     margin-right: 50px;
     cursor: pointer;
     color: #00d2ee;
-    background: #ffc1b2;
+    text-shadow: 0 0 1px #000;
+    background: #fff;
     border: 0px;
     width: 120px;
     height: 55px;
@@ -699,18 +699,19 @@ section .team p{
     outline: none;
     text-transform: uppercase;
     font-weight: bold;
+    font-size: 13px;
 }
-
-
-
 
 
 /*borderline*/
 
 /* Solid border */
 hr.solid {
-    border-top: 3px solid #fac031;
+    border-top: 3px solid #00d2ee;
   }
+
+
+ 
 
 
  
